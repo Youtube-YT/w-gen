@@ -1,0 +1,28 @@
+.button {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #031321;
+  font-family: monospace;
+}
+a {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #00ffff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 27px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+a:hover {
+  color: #255784;
+  background: #00ffff;
+  box-shadow: 0 0 10px #0c3535, 0 0 40px #00ffff, 0 0 70px #00ffff;
+  transition-delay: 0.2s;
+}
